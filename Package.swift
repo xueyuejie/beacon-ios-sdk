@@ -19,7 +19,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/mathwallet/Base58Swift.git", from: "3.0.0"),
+        .package(name: "Base58Swift" url: "https://github.com/mathwallet/Base58Swift.git", from: "3.0.0"),
         .package(name: "Sodium", url: "https://github.com/jedisct1/swift-sodium.git", "0.9.1"..<"1.0.0"),
     ],
     targets: [
